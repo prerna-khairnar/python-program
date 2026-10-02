@@ -1,0 +1,12 @@
+a = 5
+b = 3
+
+print("a =", a)
+print("b =", b)
+
+print("Bitwise AND (&):", a & b)
+print("Bitwise OR (|):", a | b)
+print("Bitwise XOR (^):", a ^ b)
+print("Bitwise NOT (~a):", ~a)
+print("Left Shift (a << 1):", a << 1)
+print("Right Shift (a >> 1):", a >> 1)

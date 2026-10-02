@@ -1,0 +1,15 @@
+n1=int(input("enter 1st number : "))
+n2=int(input("enter 2nd number : "))
+
+file = open("Python_IOT.txt","w")
+file.write("Square of " + str(n1) + " is " + str(n1*n1))
+#file.write(f"Square of {n1} is {n1*n1}")
+#file.write("sqr of 1st number is")
+#file.write(str(n1*n1))
+file.close()
+
+file = open("Python_IOT.txt","a")
+#file.write("    ")
+file.write("\n")
+file.write(" sqr of " + str(n2) + " is "+str(n2*n2))
+file.close()

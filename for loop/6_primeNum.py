@@ -1,0 +1,14 @@
+#A prime number is a positive integer greater than 1 that has only two factors: 1 and itself.
+
+num = int(input("Enter a number: "))
+
+count = 0
+
+for i in range(1, num +1 ):
+    if num % i == 0:
+        count += 1
+
+if count == 2:
+    print(num, "is a Prime Number")
+else:
+    print(num, "is Not a Prime Number")
